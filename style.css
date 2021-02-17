@@ -1,0 +1,39 @@
+h1, h2
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 5em;
+}
+
+#intro
+{
+    text-align: center;
+    font-size: 2em;
+    background: none;
+    width: 100%;
+}
+
+nav li, p
+{
+    background-color: darkseagreen;
+    width: 8%;
+    border-radius: 2px;
+    text-align: center;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+nav li
+{
+    margin-bottom: 10px;
+}
+
+
+
