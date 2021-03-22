@@ -1,3 +1,10 @@
+#bloc_page
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 h1, h2
 {
     text-align: center;
@@ -16,18 +23,17 @@ h1
     width: 100%;
 }
 
-nav li, p
-{
-    background-color: darkseagreen;
-    width: 8%;
-    border-radius: 2px;
-    text-align: center;
-}
-
 nav ul
 {
     list-style-type: none;
     padding-left: 0px;
+}
+
+nav li, p
+{
+    background-color: darkseagreen;
+    border-radius: 2px;
+    text-align: center;
 }
 
 nav li
@@ -35,5 +41,28 @@ nav li
     margin-bottom: 10px;
 }
 
+#themes
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*
+    Pour que #themes prenne tout l'espace restant
+    */
+    /*flex-grow: 1;*/
+}
 
+.parties
+{
+    display: flex;
+    justify-content: space-around;
+}
 
+/*
+MEDIAQUERIES
+*/
+@media screen and (max-width: 425px) {
+    .parties {
+        flex-direction: column;
+    }
+}
